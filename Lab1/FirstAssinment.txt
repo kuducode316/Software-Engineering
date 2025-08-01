@@ -1,0 +1,10 @@
+C:\Users\kudu>git config --global user.name "kuducode316"
+C:\Users\kudu>git confg --global user.email "kuducode316@gmail.com"
+C:\Users\kudu>mkdir  "Software Engineering"
+C:\Users\kudu>cd Software Engineering
+C:\Users\kudu\Software Engineering>git init
+C:\Users\kudu\Software Engineering> mkdir Lab1
+C:\Users\kudu\Software Engineering>git add Lab1
+C:\Users\kudu\Software Engineering>git commit -m "Initial commit"
+C:\Users\kudu\Software Engineering>git remote add origin https://github.com/kuducode316/Software-Engineering.git
+C:\Users\kudu\Software Engineering>git push -u origin master
