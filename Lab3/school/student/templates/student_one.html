@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>One Student</title>
+</head>
+<body>
+    <p>
+        <h1>{{name}}</h1>
+        <h2>{{age}}</h2>
+        <ol>
+        {% for m in marks %}
+        <li>{{m}}</li>
+        {% endfor %}
+        </ol>
+        {% if GPA >= 90 %}
+        <p>{{GPA}}-EX</p>
+        {% elif GPA < 90 and GPA >= 70 %}
+        <p>{{GPA}}-VG</p>
+        {% else %}
+        <p>{{GPA}}-G</p>
+        {% endif %}
+        <ol>
+            {% for k,v in subjects.items %}
+            <li>{{k}}-{{v}}</li>
+            {% endfor %}
+        </ol>
+
+    </p>
+</body>
+</html>

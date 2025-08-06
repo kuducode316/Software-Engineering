@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+</head>
+<body>
+    <h1>USI</h1>
+    <h2>Welcome MR:{{yourName | default:"Username" | upper }}</h2>
+    <ol>
+        <li><a href='{% url "students" %}'>All Students</a></li>
+        <li><a href='{% url "one_student" %}'>One Student</a></li>
+        <li><a href='{% url "NewStudent" %}'>New Student</a></li>
+        <li><a href='{% url "Students_Table" %}'>Studetns Table</a></li>
+
+
+    </ol>
+</body>
+</html>
